@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IshaqBuildingRentToolsApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".User.UserToolPayment"
+            android:exported="false" />
+        <activity
+            android:name=".Worker.WorkerToolPayment"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserDeleteAccount"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserViewTool"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserReturnTool"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserRentTool"
+            android:exported="false" />
+        <activity
+            android:name=".User.HireWorker"
+            android:exported="false" />
+        <activity
+            android:name=".Worker.WorkerDeleteAccount"
+            android:exported="false" />
+        <activity
+            android:name=".Worker.WorkerReturnTool"
+            android:exported="false" />
+        <activity
+            android:name=".Worker.WorkerViewTool"
+            android:exported="false" />
+        <activity
+            android:name=".Worker.WorkerRentTool"
+            android:exported="false" />
+        <activity
+            android:name=".Worker.AddProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Owner.OwnerDeleteAccount"
+            android:exported="false" />
+        <activity
+            android:name=".Owner.CheckPaidRentedTools"
+            android:exported="false" />
+        <activity
+            android:name=".Owner.CheckRentedTools"
+            android:exported="false" />
+        <activity
+            android:name=".Owner.CheckReturnedTools"
+            android:exported="false" />
+        <activity
+            android:name=".Owner.CheckAvailableTools"
+            android:exported="false" />
+        <activity
+            android:name=".Owner.CheckToolRenter"
+            android:exported="false" />
+        <activity
+            android:name=".Owner.DeleteTools"
+            android:exported="false" />
+        <activity
+            android:name=".Owner.AddTools"
+            android:exported="false" />
+        <activity
+            android:name=".UserTYpe"
+            android:exported="false" />
+        <activity
+            android:name=".Owner.OwnerHome"
+            android:exported="false" />
+        <activity
+            android:name=".Owner.OwnerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Worker.WorkerHome"
+            android:exported="false" />
+        <activity
+            android:name=".Worker.WorkerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Worker.WorkerRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserHome"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserLogin"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Owner.OwnerRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
